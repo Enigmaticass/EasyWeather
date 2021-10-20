@@ -6,25 +6,25 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SecondWeatherScreen extends AppCompatActivity {
+public class FourthWeatherScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.second_weather_screen);
+        setContentView(R.layout.fourth_weather_screen);
     }
 
     public void moveScreenRight(View view) {
 
-        Intent MoveToThird = new Intent(this, ThirdWeatherScreen.class);
-        startActivity(MoveToThird);
+        Intent MoveToFifth = new Intent(this, FifthWeatherScreen.class);
+        startActivity(MoveToFifth);
 
     }
 
     public void moveScreenLeft(View view) {
 
-        Intent MoveToStarting = new Intent(this, StartingScreen.class);
-        startActivity(MoveToStarting);
+        Intent MoveToThird = new Intent(this, ThirdWeatherScreen.class);
+        startActivity(MoveToThird);
 
     }
 }

@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/fifth_weather_screen.xml" value="0.17798913043478262" />
+        <entry key="app/src/main/res/layout/fourth_weather_screen.xml" value="0.17798913043478262" />
         <entry key="app/src/main/res/layout/second_weather_screen.xml" value="0.17798913043478262" />
+        <entry key="app/src/main/res/layout/starting_screen.xml" value="0.153125" />
+        <entry key="app/src/main/res/layout/third_weather_screen.xml" value="0.17798913043478262" />
       </map>
     </option>
   </component>

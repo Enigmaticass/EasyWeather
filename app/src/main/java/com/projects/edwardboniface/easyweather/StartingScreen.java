@@ -17,9 +17,17 @@ public class StartingScreen extends AppCompatActivity {
     }
 
 
-    public void moveScreen(View view) {
+    public void moveScreenRight(View view) {
 
-        Intent intent = new Intent(this, StartingScreen.class);
+        Intent MoveToSecond = new Intent(this, SecondWeatherScreen.class);
+        startActivity(MoveToSecond);
+
+    }
+
+    public void moveScreenLeft(View view) {
+
+        Intent MoveToFifth = new Intent(this, FifthWeatherScreen.class);
+        startActivity(MoveToFifth);
 
     }
 }
