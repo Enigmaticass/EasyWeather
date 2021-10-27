@@ -27,4 +27,10 @@ public class FifthWeatherScreen extends AppCompatActivity {
         startActivity(MoveToFourth);
 
     }
+    public void moveToSettings(View view) {
+
+        Intent moveToSettings = new Intent(this, SettingsScreen.class);
+        startActivity(moveToSettings);
+
+    }
 }

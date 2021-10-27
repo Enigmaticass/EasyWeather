@@ -27,4 +27,10 @@ public class ThirdWeatherScreen extends AppCompatActivity {
         startActivity(MoveToSecond);
 
     }
+    public void moveToSettings(View view) {
+
+        Intent moveToSettings = new Intent(this, SettingsScreen.class);
+        startActivity(moveToSettings);
+
+    }
 }

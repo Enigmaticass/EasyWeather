@@ -6,14 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-
-
 public class StartingScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.starting_screen);
+
     }
 
 
@@ -28,6 +27,13 @@ public class StartingScreen extends AppCompatActivity {
 
         Intent MoveToFifth = new Intent(this, FifthWeatherScreen.class);
         startActivity(MoveToFifth);
+
+    }
+
+    public void moveToSettings(View view) {
+
+        Intent moveToSettings = new Intent(this, SettingsScreen.class);
+        startActivity(moveToSettings);
 
     }
 }

@@ -27,4 +27,10 @@ public class SecondWeatherScreen extends AppCompatActivity {
         startActivity(MoveToStarting);
 
     }
+    public void moveToSettings(View view) {
+
+        Intent moveToSettings = new Intent(this, SettingsScreen.class);
+        startActivity(moveToSettings);
+
+    }
 }
